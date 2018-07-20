@@ -3,14 +3,18 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-function App() {
+function App2() {
+  const gee = "vcjoo";
+  let bee = "flags";
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      Hello {gee} <br />
+      {1 + 1 === 2 ? "1" : "2"} <br />
+      {bee}
+      abc edf
     </div>
   );
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App2 />, rootElement);
